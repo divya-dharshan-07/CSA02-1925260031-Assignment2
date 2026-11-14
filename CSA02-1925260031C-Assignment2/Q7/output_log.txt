@@ -1,0 +1,18 @@
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q7/q7_prime_redesign.c -o CSA02-1925260031C-Assignment2/Q7/q7_prime_redesign
+WARNINGS: None (0 warnings)
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q7/q7_prime_redesign
+============================================================
+=== Q7: DAY-4 DESIGN CHALLENGE (ORIGINAL vs 6k +/- 1 REDESIGN) ===
+    Ticket | Status    | Orig Divs | Redesign Divs | Reduction
+-----------+-----------+-----------+---------------+----------
+         2 | prime     |         0 |             0 |     0.0%
+         3 | prime     |         0 |             0 |     0.0%
+        97 | prime     |         8 |             4 |    50.0%
+       100 | not prime |         1 |             1 |     0.0%
+      7919 | prime     |        87 |            30 |    65.5%
+    104729 | prime     |       322 |           109 |    66.1%
+   1000003 | prime     |       999 |           334 |    66.6%
+  99999989 | prime     |      9998 |          3334 |    66.7%
+
+

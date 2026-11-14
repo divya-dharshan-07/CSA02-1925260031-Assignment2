@@ -1,0 +1,31 @@
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q6/q6_loan_schedule.c -o CSA02-1925260031C-Assignment2/Q6/q6_loan_schedule -lm
+WARNINGS: None (0 warnings)
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q6/q6_loan_schedule
+============================================================
+=== Q6: SELF-HELP GROUP MICRO-LOAN SCHEDULE ===
+Loan: Rs 10,000 | Monthly Interest: 2.0% | Fixed Repayment: Rs 2,000
+
+Month | Opening Bal | Interest | Payment  | Closing Bal
+------+-------------+----------+----------+------------
+    1 |    10000.00 |   200.00 |  2000.00 |     8200.00
+    2 |     8200.00 |   164.00 |  2000.00 |     6364.00
+    3 |     6364.00 |   127.28 |  2000.00 |     4491.28
+    4 |     4491.28 |    89.83 |  2000.00 |     2581.11
+    5 |     2581.11 |    51.62 |  2000.00 |      632.73
+    6 |      632.73 |    12.65 |   645.38 |        0.00
+
+Summary -> Repaid in 6 months | Total Interest Paid = Rs 645.38
+Closed-Form Formula -> exact n = 5.3205 months (ceil = 6)
+
+=== GROWTH INVESTIGATION (P = Rs 10,000, r = 2% -> Initial Interest = Rs 200) ===
+EMI = Rs 2000.00 -> Months =   6 | Total Interest = Rs    645.38
+EMI = Rs 1000.00 -> Months =  12 | Total Interest = Rs   1270.33
+EMI = Rs  500.00 -> Months =  26 | Total Interest = Rs   2898.73
+EMI = Rs  300.00 -> Months =  56 | Total Interest = Rs   6644.17
+EMI = Rs  220.00 -> Months = 122 | Total Interest = Rs  16639.92
+EMI = Rs  205.00 -> Months = 188 | Total Interest = Rs  28444.00
+EMI = Rs  200.00 -> EXCEEDED 360 MONTHS (Non-terminating / Cap hit)
+EMI = Rs  180.00 -> EXCEEDED 360 MONTHS (Non-terminating / Cap hit)
+
+

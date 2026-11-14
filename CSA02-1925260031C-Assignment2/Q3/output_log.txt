@@ -1,0 +1,32 @@
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q3/q3_complete_code.c -o CSA02-1925260031C-Assignment2/Q3/q3_complete_code
+WARNINGS: None (0 warnings)
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q3/q3_complete_code
+============================================================
+00000101
+00000110
+AC is ON, PUMP is OFF
+
+
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q3/q3_smart_home_register.c -o CSA02-1925260031C-Assignment2/Q3/q3_smart_home_register
+WARNINGS: None (0 warnings)
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q3/q3_smart_home_register
+============================================================
+=== Q3: SMART-HOME BITWISE REGISTER TRACE ===
+Initial reg               : 00000000 (dec=0, ON=0)
+After switch_on(LIGHT=0)  : 00000001 (dec=1, ON=1)
+After switch_on(AC=2)     : 00000101 (dec=5, ON=2)
+After switch_on(ROUTER=7) : 10000101 (dec=133, ON=3)
+After toggle(FAN=1)       : 10000111 (dec=135, ON=4)
+After switch_off(LIGHT=0) : 10000110 (dec=134, ON=3)
+
+Precedence Check (reg=134, dev=2):
+  reg & 1 << dev   = 4 (evaluates reg & (1 << 2) = 134 & 4 = 4)
+  (reg & 1) << dev = 0 (evaluates (134 & 1) << 2 = 0 << 2 = 0)
+
+Memory for 1,000,000 homes:
+  Bitwise unsigned char : 1000000 bytes (0.95 MB)
+  Array char state[8]   : 8000000 bytes (7.63 MB)
+
+

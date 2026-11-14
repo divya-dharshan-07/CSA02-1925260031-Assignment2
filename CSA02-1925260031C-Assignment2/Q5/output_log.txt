@@ -1,0 +1,31 @@
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q5/q5_complete_code.c -o CSA02-1925260031C-Assignment2/Q5/q5_complete_code
+WARNINGS: None (0 warnings)
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q5/q5_complete_code
+============================================================
+      97 prime     divisions = 8
+     100 not prime divisions = 1
+    7919 prime     divisions = 87
+ 1000003 prime     divisions = 999
+
+
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q5/q5_prime_loops.c -o CSA02-1925260031C-Assignment2/Q5/q5_prime_loops -lm
+WARNINGS: None (0 warnings)
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q5/q5_prime_loops
+============================================================
+=== Q5: DIVISION COUNTS ACROSS LOOP CONSTRUCTS ===
+Ticket   | Result    | Naive (i<n) | sqrt for | sqrt while | sqrt do-while
+---------+-----------+-------------+----------+------------+--------------
+       2 | prime     |           0 |        0 |          0 |             0
+       3 | prime     |           1 |        0 |          0 |             0
+      97 | prime     |          95 |        8 |          8 |             8
+     100 | not prime |           1 |        1 |          1 |             1
+    7919 | prime     |        7917 |       87 |         87 |            87
+ 1000003 | prime     |     1000001 |      999 |        999 |           999
+
+=== SIEVE OF ERATOSTHENES (N = 1000003) ===
+Precomputation composite markings: 2122051 ops | Memory: 1000004 bytes (976.57 KB)
+O(1) Query Check -> 97:1, 100:0, 7919:1, 1000003:1
+
+

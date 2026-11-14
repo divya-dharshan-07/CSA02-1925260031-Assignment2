@@ -1,0 +1,22 @@
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q1/q1_pharmacy_billing.c -o CSA02-1925260031C-Assignment2/Q1/q1_pharmacy_billing
+WARNINGS: None (0 warnings)
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q1/q1_pharmacy_billing
+============================================================
+=== Q1: JAN AUSHADHI PHARMACY BILLING COMPARISON ===
+
+Bill 1: Small senior bill (price=6, qty=1, senior=1)
+  Buggy     -> total = 6, net = 6
+  Corrected -> gross = 6, discount = 0, gst = 0, total = 6, net = 6
+
+Bill 2: Large senior bill (price=500, qty=3, senior=1)
+  Buggy     -> total = 1350, net = 1300
+  Corrected -> gross = 1500, discount = 225, gst = 63, total = 1338, net = 1288
+
+Bill 3: Borderline regular bill (price=250, qty=4, senior=0)
+  Buggy     -> total = 1050, net = 1000
+  Corrected -> gross = 1000, discount = 0, gst = 50, total = 1050, net = 1000
+
+Safe increment result (count started at 5): 6
+
+

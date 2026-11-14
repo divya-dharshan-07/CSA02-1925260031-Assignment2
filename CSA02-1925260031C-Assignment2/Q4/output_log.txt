@@ -1,0 +1,42 @@
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q4/q4_complete_code.c -o CSA02-1925260031C-Assignment2/Q4/q4_complete_code
+WARNINGS: None (0 warnings)
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q4/q4_complete_code
+============================================================
+100:S 95:S 83:A 50:D 49:F -5:? 
+
+
+============================================================
+COMPILE: gcc -Wall -Wextra -std=c11 CSA02-1925260031C-Assignment2/Q4/q4_grade_scholarship.c -o CSA02-1925260031C-Assignment2/Q4/q4_grade_scholarship
+WARNINGS:
+CSA02-1925260031C-Assignment2/Q4/q4_grade_scholarship.c: In function ‘grade_switch_fallthrough_bug’:
+CSA02-1925260031C-Assignment2/Q4/q4_grade_scholarship.c:32:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   32 |         case 8: g = 'A'; /* MISSING break! Falls through into case 7 */
+      |                 ~~^~~~~
+CSA02-1925260031C-Assignment2/Q4/q4_grade_scholarship.c:33:9: note: here
+   33 |         case 7: g = 'B'; break;
+      |         ^~~~
+
+EXECUTE: ./CSA02-1925260031C-Assignment2/Q4/q4_grade_scholarship
+============================================================
+=== Q4: BOUNDARY & IMPLEMENTATION COMPARISON ===
+Marks | else-if | switch | Lookup | Fall-through Bug
+------+---------+--------+--------+-----------------
+  101 |    ?    |   ?    |   ?    |        ?
+  100 |    S    |   S    |   S    |        S
+   90 |    S    |   S    |   S    |        S
+   89 |    A    |   A    |   A    |        B
+   80 |    A    |   A    |   A    |        B
+   79 |    B    |   B    |   B    |        B
+   50 |    D    |   D    |   D    |        D
+   49 |    F    |   F    |   F    |        F
+    0 |    F    |   F    |   F    |        F
+   -1 |    ?    |   ?    |   ?    |        ?
+
+=== SCHOLARSHIP CLASSIFICATION ===
+Grade S, Income 200,000 -> 100% Merit-cum-Means Waiver
+Grade A, Income 450,000 -> 40% Merit Scholarship
+Grade B, Income 180,000 -> 25% Need-Based Grant
+Grade C, Income 100,000 -> Not Eligible
+
+
