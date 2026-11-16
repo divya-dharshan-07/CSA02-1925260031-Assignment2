@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="759" viewBox="0 0 1500 759">
+<rect width="100%" height="100%" fill="#0b1220"/><rect x="20" y="18" width="1460" height="723" rx="18" fill="#111c2e" stroke="#33465f" stroke-width="2"/>
+<circle cx="48" cy="46" r="7" fill="#ff5f57"/><circle cx="73" cy="46" r="7" fill="#febc2e"/><circle cx="98" cy="46" r="7" fill="#28c840"/>
+<text x="135" y="53" class="title">Q4 | PROGRAM OUTPUT</text><line x1="42" y1="78" x2="1458" y2="78" stroke="#33465f" stroke-width="2"/>
+<text x="48" y="108" class="source">RECREATED FROM THE REPOSITORY'S output_log.txt</text><text x="48" y="132" class="head">=== Q4: GRADE CLASSIFICATION ===</text>
+<text x="48" y="161" class="line">&#160;</text>
+<text x="48" y="190" class="line">100:S 95:S 83:A 50:D 49:F -5:?</text>
+<text x="48" y="219" class="line">&#160;</text>
+<text x="48" y="248" class="line">Boundary test summary:</text>
+<text x="48" y="277" class="line">101 -&gt; ?</text>
+<text x="48" y="306" class="line">100 -&gt; S</text>
+<text x="48" y="335" class="line"> 90 -&gt; S</text>
+<text x="48" y="364" class="line"> 89 -&gt; A</text>
+<text x="48" y="393" class="line"> 80 -&gt; A</text>
+<text x="48" y="422" class="line"> 79 -&gt; B</text>
+<text x="48" y="451" class="line"> 50 -&gt; D</text>
+<text x="48" y="480" class="line"> 49 -&gt; F</text>
+<text x="48" y="509" class="line">  0 -&gt; F</text>
+<text x="48" y="538" class="line"> -1 -&gt; ?</text>
+<text x="48" y="567" class="line">&#160;</text>
+<text x="48" y="596" class="line">Scholarship classification:</text>
+<text x="48" y="625" class="line">Grade S, Income 200,000 -&gt; 100% Merit-cum-Means Waiver</text>
+<text x="48" y="654" class="line">Grade A, Income 450,000 -&gt; 40% Merit Scholarship</text>
+<text x="48" y="683" class="line">Grade B, Income 180,000 -&gt; 25% Need-Based Grant</text>
+<text x="48" y="712" class="line">Grade C, Income 100,000 -&gt; Not Eligible</text>
+<text x="48" y="711" class="note">Formatted output image based on the saved program log — not a raw desktop screenshot.</text>
+<style>
+.title{font: bold 23px monospace;fill:#c7d6e5}.source{font:16px monospace;fill:#83a6c9}
+.head{font:bold 19px monospace;fill:#7ee0c3}.line{font:18px monospace;fill:#e6edf3}
+.note{font:14px monospace;fill:#8da1b8}
+</style></svg>
