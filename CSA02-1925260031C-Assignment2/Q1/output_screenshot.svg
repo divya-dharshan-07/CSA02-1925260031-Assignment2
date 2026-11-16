@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="585" viewBox="0 0 1500 585">
+<rect width="100%" height="100%" fill="#0b1220"/><rect x="20" y="18" width="1460" height="549" rx="18" fill="#111c2e" stroke="#33465f" stroke-width="2"/>
+<circle cx="48" cy="46" r="7" fill="#ff5f57"/><circle cx="73" cy="46" r="7" fill="#febc2e"/><circle cx="98" cy="46" r="7" fill="#28c840"/>
+<text x="135" y="53" class="title">Q1 | PROGRAM OUTPUT</text><line x1="42" y1="78" x2="1458" y2="78" stroke="#33465f" stroke-width="2"/>
+<text x="48" y="108" class="source">RECREATED FROM THE REPOSITORY'S output_log.txt</text><text x="48" y="132" class="head">=== Q1: JAN AUSHADHI PHARMACY BILLING COMPARISON ===</text>
+<text x="48" y="161" class="line">&#160;</text>
+<text x="48" y="190" class="line">Bill 1: Small senior bill (price=6, qty=1, senior=1)</text>
+<text x="48" y="219" class="line">  Buggy     -&gt; total = 6, net = 6</text>
+<text x="48" y="248" class="line">  Corrected -&gt; gross = 6, discount = 0, gst = 0, total = 6, net = 6</text>
+<text x="48" y="277" class="line">&#160;</text>
+<text x="48" y="306" class="line">Bill 2: Large senior bill (price=500, qty=3, senior=1)</text>
+<text x="48" y="335" class="line">  Buggy     -&gt; total = 1350, net = 1300</text>
+<text x="48" y="364" class="line">  Corrected -&gt; gross = 1500, discount = 225, gst = 63, total = 1338, net = 1288</text>
+<text x="48" y="393" class="line">&#160;</text>
+<text x="48" y="422" class="line">Bill 3: Borderline regular bill (price=250, qty=4, senior=0)</text>
+<text x="48" y="451" class="line">  Buggy     -&gt; total = 1050, net = 1000</text>
+<text x="48" y="480" class="line">  Corrected -&gt; gross = 1000, discount = 0, gst = 50, total = 1050, net = 1000</text>
+<text x="48" y="509" class="line">&#160;</text>
+<text x="48" y="538" class="line">Safe increment result (count started at 5): 6</text>
+<text x="48" y="537" class="note">Formatted output image based on the saved program log — not a raw desktop screenshot.</text>
+<style>
+.title{font: bold 23px monospace;fill:#c7d6e5}.source{font:16px monospace;fill:#83a6c9}
+.head{font:bold 19px monospace;fill:#7ee0c3}.line{font:18px monospace;fill:#e6edf3}
+.note{font:14px monospace;fill:#8da1b8}
+</style></svg>
