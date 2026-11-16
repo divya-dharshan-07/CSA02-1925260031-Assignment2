@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="498" viewBox="0 0 1500 498">
+<rect width="100%" height="100%" fill="#0b1220"/><rect x="20" y="18" width="1460" height="462" rx="18" fill="#111c2e" stroke="#33465f" stroke-width="2"/>
+<circle cx="48" cy="46" r="7" fill="#ff5f57"/><circle cx="73" cy="46" r="7" fill="#febc2e"/><circle cx="98" cy="46" r="7" fill="#28c840"/>
+<text x="135" y="53" class="title">Q3 | PROGRAM OUTPUT</text><line x1="42" y1="78" x2="1458" y2="78" stroke="#33465f" stroke-width="2"/>
+<text x="48" y="108" class="source">RECREATED FROM THE REPOSITORY'S output_log.txt</text><text x="48" y="132" class="head">=== Q3: SMART-HOME BITWISE REGISTER TRACE ===</text>
+<text x="48" y="161" class="line">Initial reg               : 00000000 (dec=0, ON=0)</text>
+<text x="48" y="190" class="line">After switch_on(LIGHT=0)  : 00000001 (dec=1, ON=1)</text>
+<text x="48" y="219" class="line">After switch_on(AC=2)     : 00000101 (dec=5, ON=2)</text>
+<text x="48" y="248" class="line">After switch_on(ROUTER=7) : 10000101 (dec=133, ON=3)</text>
+<text x="48" y="277" class="line">After toggle(FAN=1)       : 10000111 (dec=135, ON=4)</text>
+<text x="48" y="306" class="line">After switch_off(LIGHT=0) : 10000110 (dec=134, ON=3)</text>
+<text x="48" y="335" class="line">&#160;</text>
+<text x="48" y="364" class="line">Required starter-program output:</text>
+<text x="48" y="393" class="line">00000101</text>
+<text x="48" y="422" class="line">00000110</text>
+<text x="48" y="451" class="line">AC is ON, PUMP is OFF</text>
+<text x="48" y="450" class="note">Formatted output image based on the saved program log — not a raw desktop screenshot.</text>
+<style>
+.title{font: bold 23px monospace;fill:#c7d6e5}.source{font:16px monospace;fill:#83a6c9}
+.head{font:bold 19px monospace;fill:#7ee0c3}.line{font:18px monospace;fill:#e6edf3}
+.note{font:14px monospace;fill:#8da1b8}
+</style></svg>
