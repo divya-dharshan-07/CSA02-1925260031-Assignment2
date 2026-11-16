@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="556" viewBox="0 0 1500 556">
+<rect width="100%" height="100%" fill="#0b1220"/><rect x="20" y="18" width="1460" height="520" rx="18" fill="#111c2e" stroke="#33465f" stroke-width="2"/>
+<circle cx="48" cy="46" r="7" fill="#ff5f57"/><circle cx="73" cy="46" r="7" fill="#febc2e"/><circle cx="98" cy="46" r="7" fill="#28c840"/>
+<text x="135" y="53" class="title">Q7 | PROGRAM OUTPUT</text><line x1="42" y1="78" x2="1458" y2="78" stroke="#33465f" stroke-width="2"/>
+<text x="48" y="108" class="source">RECREATED FROM THE REPOSITORY'S output_log.txt</text><text x="48" y="132" class="head">=== Q7: ORIGINAL vs 6k +/- 1 PRIME REDESIGN ===</text>
+<text x="48" y="161" class="line">&#160;</text>
+<text x="48" y="190" class="line">Ticket    | Status    | Orig Divs | Redesign | Reduction</text>
+<text x="48" y="219" class="line">        2 | prime     |         0 |        0 |      0.0%</text>
+<text x="48" y="248" class="line">        3 | prime     |         0 |        0 |      0.0%</text>
+<text x="48" y="277" class="line">       97 | prime     |         8 |        4 |     50.0%</text>
+<text x="48" y="306" class="line">      100 | not prime |         1 |        1 |      0.0%</text>
+<text x="48" y="335" class="line">     7919 | prime     |        87 |       30 |     65.5%</text>
+<text x="48" y="364" class="line">   104729 | prime     |       322 |      109 |     66.1%</text>
+<text x="48" y="393" class="line">  1000003 | prime     |       999 |      334 |     66.6%</text>
+<text x="48" y="422" class="line"> 99999989 | prime     |      9998 |     3334 |     66.7%</text>
+<text x="48" y="451" class="line">&#160;</text>
+<text x="48" y="480" class="line">Validation: original and redesigned methods agree on all listed inputs.</text>
+<text x="48" y="509" class="line">Auxiliary memory: O(1).</text>
+<text x="48" y="508" class="note">Formatted output image based on the saved program log — not a raw desktop screenshot.</text>
+<style>
+.title{font: bold 23px monospace;fill:#c7d6e5}.source{font:16px monospace;fill:#83a6c9}
+.head{font:bold 19px monospace;fill:#7ee0c3}.line{font:18px monospace;fill:#e6edf3}
+.note{font:14px monospace;fill:#8da1b8}
+</style></svg>
